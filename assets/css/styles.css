@@ -73,8 +73,8 @@ a:hover { text-decoration: underline; }
 }
 .brand:hover { text-decoration: none; }
 .brand-logo {
-  width: 54px;
-  height: 54px;
+  width: 120px;
+  height: 110px;
   flex: 0 0 auto;
 }
 .brand-text {
