@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | SVSS</title>
+  <meta name="description" content="Sacramento Valley Soaring Society website" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="SVSS home">
+        <img src="assets/images/svss-logo.svg" alt="SVSS logo" class="brand-logo" />
+        <div class="brand-text">
+          <strong>Sacramento Valley Soaring Society</strong>
+          <span>RC Soaring in Northern California</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+<li><a href="schedule.html">Schedule</a></li>
+<li><a href="spring-fling.html">Spring Fling</a></li>
+<li><a href="fall-fling.html">Fall Fling</a></li>
+<li><a href="results.html">Results</a></li>
+<li><a href="field-info.html">Field Info</a></li>
+<li><a href="join.html">Join</a></li>
+<li><a href="officers.html">Officers</a></li>
+<li><a href="gallery.html" class="active">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Northern California RC Soaring</p>
+      <h1>Photo Gallery</h1>
+      <p class="lead">Club photos and event images, organized so you can replace placeholders easily.</p>
+    </div>
+  </section>
+
+  <main id="main">
+    
+<section class="content-section">
+  <div class="container card">
+    <h2>Photo Gallery</h2>
+    <p>
+      Replace these placeholders with club photos, event images, field shots, and awards photos. SVG placeholders are included so the layout looks complete before you add real images.
+    </p>
+    <div class="gallery-grid">
+      <figure>
+        <img src="assets/images/gallery/spring-fling-01.svg" alt="Placeholder photo for Spring Fling gallery image 1" />
+        <figcaption>Spring Fling placeholder image</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/images/gallery/spring-fling-02.svg" alt="Placeholder photo for Spring Fling gallery image 2" />
+        <figcaption>Another event placeholder image</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/images/gallery/club-day-01.svg" alt="Placeholder photo for club day gallery image" />
+        <figcaption>Club day placeholder image</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Sacramento Valley Soaring Society</h3>
+        <p>
+          A lightweight static website package for GitHub Pages, with separate pages so each section is easy to update.
+        </p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="schedule.html">2026 Schedule</a></li>
+          <li><a href="spring-fling.html">Spring Fling</a></li>
+          <li><a href="field-info.html">Field Info</a></li>
+          <li><a href="join.html">Join SVSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Sacramento Valley Soaring Society. Built for simple maintenance on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('open');
+      });
+    }
+  </script>
+</body>
+</html>

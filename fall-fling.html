@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fall Fling | SVSS</title>
+  <meta name="description" content="Sacramento Valley Soaring Society website" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="SVSS home">
+        <img src="assets/images/svss-logo.svg" alt="SVSS logo" class="brand-logo" />
+        <div class="brand-text">
+          <strong>Sacramento Valley Soaring Society</strong>
+          <span>RC Soaring in Northern California</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+<li><a href="schedule.html">Schedule</a></li>
+<li><a href="spring-fling.html">Spring Fling</a></li>
+<li><a href="fall-fling.html" class="active">Fall Fling</a></li>
+<li><a href="results.html">Results</a></li>
+<li><a href="field-info.html">Field Info</a></li>
+<li><a href="join.html">Join</a></li>
+<li><a href="officers.html">Officers</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Future Featured Event</p>
+      <h1>SVSS Fall Fling</h1>
+      <p class="lead">A ready-to-edit page for the club’s fall 2-day F5J Tour event.</p>
+    </div>
+  </section>
+
+  <main id="main">
+    
+<section class="content-section">
+  <div class="container grid-2">
+    <div class="card warning">
+      <h2>SVSS Fall Fling</h2>
+      <p><strong>Date:</strong> To be confirmed</p>
+      <p><strong>Type:</strong> 2-day F5J Tour event</p>
+      <p>
+        This page mirrors the Spring Fling page so you can fill in the fall event details later without redesigning anything.
+      </p>
+      <div class="button-row">
+        <a class="button secondary" href="schedule.html">Back to Schedule</a>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Ready for later updates</h3>
+      <ul class="list-clean">
+        <li>Add confirmed dates</li>
+        <li>Add registration and local notes</li>
+        <li>Add lodging recommendations</li>
+        <li>Add pilot meeting time</li>
+        <li>Add results or live scoring</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container card">
+    <h3>Page maintenance tip</h3>
+    <p>
+      When the fall event date is finalized, update just three places:
+    </p>
+    <ol class="list-clean">
+      <li>This page</li>
+      <li>The full season schedule on <span class="code-inline">schedule.html</span></li>
+      <li>The homepage feature callout on <span class="code-inline">index.html</span></li>
+    </ol>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Sacramento Valley Soaring Society</h3>
+        <p>
+          A lightweight static website package for GitHub Pages, with separate pages so each section is easy to update.
+        </p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="schedule.html">2026 Schedule</a></li>
+          <li><a href="spring-fling.html">Spring Fling</a></li>
+          <li><a href="field-info.html">Field Info</a></li>
+          <li><a href="join.html">Join SVSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Sacramento Valley Soaring Society. Built for simple maintenance on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('open');
+      });
+    }
+  </script>
+</body>
+</html>

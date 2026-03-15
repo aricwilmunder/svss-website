@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Results | SVSS</title>
+  <meta name="description" content="Sacramento Valley Soaring Society website" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="SVSS home">
+        <img src="assets/images/svss-logo.svg" alt="SVSS logo" class="brand-logo" />
+        <div class="brand-text">
+          <strong>Sacramento Valley Soaring Society</strong>
+          <span>RC Soaring in Northern California</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+<li><a href="schedule.html">Schedule</a></li>
+<li><a href="spring-fling.html">Spring Fling</a></li>
+<li><a href="fall-fling.html">Fall Fling</a></li>
+<li><a href="results.html" class="active">Results</a></li>
+<li><a href="field-info.html">Field Info</a></li>
+<li><a href="join.html">Join</a></li>
+<li><a href="officers.html">Officers</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Northern California RC Soaring</p>
+      <h1>Contest Results</h1>
+      <p class="lead">A simple archive for season results, PDFs, and scoring links.</p>
+    </div>
+  </section>
+
+  <main id="main">
+    
+<section class="content-section">
+  <div class="container grid-2">
+    <div class="card">
+      <h2>Results Archive</h2>
+      <p>
+        This page is set up for simple yearly result links. You can link to PDFs, text exports, or external live scoring pages.
+      </p>
+      <h3>2026</h3>
+      <ul class="list-clean">
+        <li>March F5J, placeholder link</li>
+        <li>April Thermal Duration + ALES, placeholder link</li>
+        <li>April F5J, placeholder link</li>
+        <li><a href="assets/docs/contest-results/2026-spring-fling-results.txt">Spring Fling results placeholder</a></li>
+      </ul>
+      <h3>2025</h3>
+      <ul class="list-clean">
+        <li>Add prior season results here</li>
+      </ul>
+    </div>
+    <div class="card soft">
+      <h3>Suggested formats</h3>
+      <ul class="list-clean">
+        <li>PDF result sheets</li>
+        <li>GliderScore links</li>
+        <li>HTML result pages</li>
+        <li>Simple Google Drive links</li>
+      </ul>
+      <p class="small-note">
+        Since this is a static site, PDF uploads are often the easiest path.
+      </p>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Sacramento Valley Soaring Society</h3>
+        <p>
+          A lightweight static website package for GitHub Pages, with separate pages so each section is easy to update.
+        </p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="schedule.html">2026 Schedule</a></li>
+          <li><a href="spring-fling.html">Spring Fling</a></li>
+          <li><a href="field-info.html">Field Info</a></li>
+          <li><a href="join.html">Join SVSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Sacramento Valley Soaring Society. Built for simple maintenance on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('open');
+      });
+    }
+  </script>
+</body>
+</html>

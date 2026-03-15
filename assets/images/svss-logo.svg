@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+<title>SVSS logo placeholder</title>
+<desc>Circular blue logo with stylized glider and SVSS letters.</desc>
+<defs>
+  <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#0a3058"/>
+    <stop offset="100%" stop-color="#0b5cab"/>
+  </linearGradient>
+</defs>
+<circle cx="120" cy="120" r="114" fill="url(#g)" stroke="#dfeeff" stroke-width="8"/>
+<path d="M34 110c36-24 78-35 170-38-41 12-71 22-111 48 34-4 61 0 103 18-47-7-85-7-150 8 25-14 48-26 74-36-28 2-55 6-86 16z" fill="#ffffff" opacity=".95"/>
+<text x="120" y="185" font-family="Arial, Helvetica, sans-serif" font-size="34" text-anchor="middle" fill="#ffffff" font-weight="700" letter-spacing="3">SVSS</text>
+</svg>

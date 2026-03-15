@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join | SVSS</title>
+  <meta name="description" content="Sacramento Valley Soaring Society website" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="SVSS home">
+        <img src="assets/images/svss-logo.svg" alt="SVSS logo" class="brand-logo" />
+        <div class="brand-text">
+          <strong>Sacramento Valley Soaring Society</strong>
+          <span>RC Soaring in Northern California</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+<li><a href="schedule.html">Schedule</a></li>
+<li><a href="spring-fling.html">Spring Fling</a></li>
+<li><a href="fall-fling.html">Fall Fling</a></li>
+<li><a href="results.html">Results</a></li>
+<li><a href="field-info.html">Field Info</a></li>
+<li><a href="join.html" class="active">Join</a></li>
+<li><a href="officers.html">Officers</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Northern California RC Soaring</p>
+      <h1>Join SVSS</h1>
+      <p class="lead">Membership information, forms, and how to get started.</p>
+    </div>
+  </section>
+
+  <main id="main">
+    
+<section class="content-section">
+  <div class="container grid-2">
+    <div class="card">
+      <h2>Join SVSS</h2>
+      <p>
+        Keep the membership page simple and practical. Include current dues, who to contact, and any required information
+        for joining or renewing.
+      </p>
+      <ul class="list-clean">
+        <li>Current AMA membership required</li>
+        <li>Season runs March through November</li>
+        <li>Thermal Duration, ALES, and F5J contest flying</li>
+      </ul>
+      <div class="button-row">
+        <a class="button primary" href="contact.html">Contact the club</a>
+        <a class="button secondary" href="assets/docs/membership-form.txt">Membership form placeholder</a>
+      </div>
+    </div>
+    <div class="card soft">
+      <h3>What to add later</h3>
+      <ul class="list-clean">
+        <li>Dues information</li>
+        <li>Mailing address if needed</li>
+        <li>Online payment instructions</li>
+        <li>Membership form PDF</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Sacramento Valley Soaring Society</h3>
+        <p>
+          A lightweight static website package for GitHub Pages, with separate pages so each section is easy to update.
+        </p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="schedule.html">2026 Schedule</a></li>
+          <li><a href="spring-fling.html">Spring Fling</a></li>
+          <li><a href="field-info.html">Field Info</a></li>
+          <li><a href="join.html">Join SVSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Sacramento Valley Soaring Society. Built for simple maintenance on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('open');
+      });
+    }
+  </script>
+</body>
+</html>
